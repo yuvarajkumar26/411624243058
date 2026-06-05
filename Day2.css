@@ -1,0 +1,93 @@
+body{
+    color:rgb(255, 0, 0);
+    background-color:#ff50c8;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/*p{
+    font-style: italic;
+    font-size: xx-large;
+    font-weight: bolder;
+}*/
+
+#p1{
+    font-style: normal;
+}
+
+#p2{
+    font-style: italic;
+}
+
+img{
+    height: 500px;
+    width: 600px;
+    border-radius: 500px;
+}
+
+video{
+    height:500px;
+    width:500px;
+}
+
+ol{
+    list-style-type:lower-roman;
+}
+
+ul{
+    list-style-type:square;
+}
+
+table,th,td{
+    border:1px solid white;
+    border-collapse: collapse;
+}
+
+h1{
+    padding:50px;
+    border:20px solid greenyellow;
+    margin: 50px;
+    padding:10px;
+}
+
+button:hover{
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+button{
+    padding:10px;
+    margin: 20px;
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+    gap:100px;
+}
+
+.pclass{
+    font-size: x-large;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns: 50% 50%;
+}
+
+.cars{
+    display:grid;
+}
+
+#car1{
+    grid-row:1/2;
+}
+#car2{
+    grid-row:1/2;
+}
+#car3{
+    grid-row:2/3;
+}
+#car4{
+    grid-row:2/3;
+}
